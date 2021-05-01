@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-xy-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-container {
+  /* flex: 0 0 33%; */
+  padding: .25rem;
+
+  /* max-width: 5rem; */
+}
+
+/* img { width: 100%} */
+
+.info {
+  font-size: 12px;
+  margin-left: .25rem;
+  border-left: 2px solid black;
+  padding-left: .25rem;
+}
+
+.info > * {
+  margin: 0;
+
+}
+
+.logo {
+  object-fit: cover;
+  width: 90px;
+  /* height: 115px; */
+}
+
+.icon-container {
+  justify-content: flex-start;
+}
+
+.signature {
+  height: 10rem;
+}
